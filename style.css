@@ -1,33 +1,4 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
  
-@NStaselovich 
-akartynnik
-/
-akartynnik.github.io
-1
-36
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-akartynnik.github.io/style.css
-@akartynnik
-akartynnik Update style.css
-Latest commit 8196c24 on 12 Dec 2016
- History
- 1 contributor
-100 lines (82 sloc)  1.14 KB
-  
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
@@ -78,8 +49,9 @@ a:hover {
 }
 
 .content {
-	max-width: 600px;
-	margin: 0 auto;
+	max-width: 800px;
+	margin: 20%;
+	text-align: center;
 }
 
 .intro {
@@ -128,16 +100,3 @@ a:hover {
 		float: none;
 	}
 }
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
