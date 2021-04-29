@@ -50,7 +50,7 @@ a:hover {
 
 .content {
 	max-width: 800px;
-	margin: 20%;
+	margin: 0 auto;
 	text-align: center;
 	
 }
