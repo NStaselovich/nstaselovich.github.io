@@ -52,10 +52,7 @@ a:hover {
 	max-width: 800px;
 	margin: 20%;
 	text-align: center;
-	display:flex;
- 	 justify-content:space-around;
- 	 align-items:center;
- 	 flex-wrap:wrap;
+	
 }
 
 .intro {
