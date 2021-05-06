@@ -3,12 +3,14 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	color: #333;
+	background-color: rgb(250,250,250);
 }
 
 span{
 	font-size: 14px;
 	color: #000;
 	transition: 0.3s;
+
 }
 
 img{
@@ -27,16 +29,35 @@ table tr td:first-child {
 }
 
 a {
+	display:   inline-block;
+        margin:    0px 15px;
 	text-decoration: none;
-	color: #23286b;
-	font-weight: bold;
+	color: #1936c3;
+	transition: 0.1s;
+	float: right
+}
+
+id1 {
+	display:   inline-block;
+        margin:    0px 20px;
+	text-decoration: none;
+	color: #1936c3;
 	transition: 0.3s;
+	float: left
 }
 
 a:hover {
+	color: #1A6DCC;
+	transition: 0.3s;
+	text-decoration: underline;
+}
+
+a1:hover {
 	color: #1A6DBB;
 	transition: 0.3s;
 }
+
+
 
 ::-moz-selection {
 	color: white; 
@@ -52,6 +73,7 @@ a:hover {
 	max-width: 800px;
 	margin: 0 auto;
 	word-spacing: 15 px;
+	
 	
 }
 
@@ -98,6 +120,6 @@ a:hover {
 	}
 	
 	table {
-		float: none;
+		float: left;
 	}
 }
